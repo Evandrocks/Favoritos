@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@1,400;1,700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #f7f7f7;
+  color: #1c1c1c;
+  margin: 3px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #0e1d2f;
+  padding: 10px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 140px;
+  box-shadow: 3px 3px 3px #0e1d2f;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.imagemListada {
+  width: 125px;
+  height: 187px;
+}
+
+.quadrado {
+  width: 125px;
+  height: 125px;
+}
+
+.cortado {
+    width: 125px;
+  height: 125px;
+  object-fit: cover;
+  object position: 100% 100%;
+}
+
+.container2 {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-color: darkgray;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin: 3px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #0e1d2f;
+  padding: 5px;
+  overflow-x: scroll;
+}
+
+.container2 h4 {
+  font-weight: 900;
+  font-size: 12px;
+  margin: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border: 1.8px solid #1c1c1c;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ecf4ff;
+}
+
+::-webkit-scrollbar-track {
+  background: gray;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+  margin: 15px 10px;
+}
